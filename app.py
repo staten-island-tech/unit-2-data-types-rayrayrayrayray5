@@ -40,11 +40,16 @@ y=x.split()
 count = len(y)
 print(count) """
 
+
 #MADLIB
-a = input("Select a name:")
-b = input("Select a verb:")
+""" a = input("Select a name:")
+b = input("Select a (past tense) verb:")
+f = input("Select a (past tense) verb2:")
+g = input("Select a number:")
 c = input("Select a place:")
+h = input("Select a noun:")
 d = input("Select a celebrity:")
 e = input("Say a compliment:")
 
-print({a},"was", {b}, to" {c}, then, {a}, ran into, {d},  who said, {e})
+Madlib = print(f"{a,"was walking", "to", c, "then", a, f,g, h, "and ran into", d,  "who said you're", e, "then", a, b, d}")
+print(Madlib) """
