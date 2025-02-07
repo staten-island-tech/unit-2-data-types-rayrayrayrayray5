@@ -26,13 +26,13 @@ else:
 print(f"hello {x}") """
 
 
-temp = 67
+""" temp = 67
 if temp > 68:
     print('warm')
 elif temp == 68:
     print('perfect')
 else:
-    print('cold')
+    print('cold') """
     
 #Challenge
 """ x = input("sentence:")
@@ -44,6 +44,7 @@ print(count) """
 a = input("Select a name:")
 b = input("Select a verb:")
 c = input("Select a place:")
+d = input("Select a celebrity:")
+e = input("Say a compliment:")
 
-
-print(a was )
+print({a},"was", {b}, to" {c}, then, {a}, ran into, {d},  who said, {e})
