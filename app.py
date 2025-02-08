@@ -40,6 +40,27 @@ y=x.split()
 count = len(y)
 print(count) """
 
+#Even or Odd
+""" number = 28
+if number%2 == 1:
+    print('odd')
+else:
+    print('even') """
+
+#Tip Calculator
+""" bill = 10
+service = input('how was the service?')
+if service == 'great':
+    x = bill*1.25
+    print(x)
+elif service == 'good':
+    y = bill*1.20
+    print(y)
+elif service == 'okay':
+    z = bill*1.15
+    print(z)
+elif service == 'bad':
+    print(bill) """
 
 #MADLIB
 """ a = input("Select a name:")
