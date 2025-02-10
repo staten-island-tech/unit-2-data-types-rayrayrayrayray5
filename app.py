@@ -41,14 +41,14 @@ count = len(y)
 print(count) """
 
 #Even or Odd
-""" number = 28
+""" number = int(input('enter a number:'))
 if number%2 == 1:
     print('odd')
 else:
     print('even') """
 
 #Tip Calculator
-""" bill = 10
+""" bill = int(input('enter the bill:'))
 service = input('how was the service?')
 if service == 'great':
     x = bill*1.25
@@ -74,3 +74,13 @@ e = input("Say a compliment:")
 
 Madlib = print(f"{a,"was walking", "to", c, "then", a, f,g, h, "and ran into", d,  "who said you're", e, "then", a, b, d}")
 print(Madlib) """
+
+#Determine Factor
+""" number = int(input('enter a number:'))
+for i in range(1, number+1):
+    if number %i == 0:
+        print(i) """
+
+#Determine GCF
+
+
