@@ -82,10 +82,11 @@ for i in range(1, number+1):
         print(i) """
 
 #Determine GCF
-number = int(input('enter a number:'))
+""" number = int(input('enter a number:'))
 number2 = int(input('enter a number:'))
 gcf = 1
 for i  in range(1, min(number,number2)+1):
     if number%i == 0 and number2%i == 0:
         gcf = i
-print(gcf)
+print(gcf) """
+
